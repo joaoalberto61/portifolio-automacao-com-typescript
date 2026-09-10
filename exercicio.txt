@@ -1,0 +1,5 @@
+Crie um novo type com no minimo dois campos.
+Chame variaveis para utilizar esse type.
+crie uma função com esse type.
+nessa função utilize uma condição ternaria.
+chame a função e execute.
