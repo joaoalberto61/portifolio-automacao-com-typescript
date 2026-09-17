@@ -54,3 +54,9 @@ function avaliarExperiencia(tecnicoAtual: Tecnico): void {
 
 avaliarExperiencia(tecnico1);
 avaliarExperiencia(tecnico2);
+
+// Exemplo simples adicionando array de objetos
+// Essa adição foi implementada apenas para resolver o exercicio do Moodle que pede array
+const timeTecnicos: Tecnico[] = [tecnico1, tecnico2];
+timeTecnicos.forEach(avaliarExperiencia);
+

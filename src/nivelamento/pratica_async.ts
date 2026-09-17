@@ -10,7 +10,10 @@ function simularLogin (usuario:string, senha:string):Promise<string>{
         }
     });
 }
-//Função principal testando com Async/Await ;-D
+//Função principal testando com Async/Await ;
+// 1. Funções 'async' retornam Promises e permitem o uso do 'await'.
+// 2. O 'await' pausa a execução interna desta função sem bloquear o thread principal do Node/Browser.
+// 3. Enquanto aguarda a resolução do 'simularLogin', o JavaScript fica livre para processar outras tarefas na fila (Event Loop).
 async function executarCT() {
     console.log('Iniciando cenario de teste')
     try{
